@@ -90,7 +90,7 @@ public class Runner {
             if (json.has("items")){
                 for (JsonElement element: json.get("items").getAsJsonArray()){
                     JsonObject object = element.getAsJsonObject();
-                    if (object.get("body_markdown").getAsString().matches(".*(cite|add|provide|includegive).*(\\ssource).*")){
+                    if (object.get("body_markdown").getAsString().matches(".*(cite|add|provide|include|give).*(\\ssource).*")){
                         room.send(desc+" Answer with comment with the text 'cite sources': "+object.get("link").getAsString());
                     }
                 }
