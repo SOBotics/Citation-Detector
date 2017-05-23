@@ -2,7 +2,7 @@
 
 On Hinduism.SE, users have to cite some authentic sources while answering questions. In other words, users have to backup their answers with someone authentic sources. 
 
-According to the [Official policy of deleting answers that don't cite any sources](http://hinduism.meta.stackexchange.com), whenever an answer found that doesn't cite any sources, it is commented like 
+According to the [Official policy of deleting answers that don't cite any sources](http://hinduism.meta.stackexchange.com/q/803/277), whenever an answer found that doesn't cite any sources, it is commented like 
 
 > "You should cite some sources..." 
 
