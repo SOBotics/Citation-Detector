@@ -37,7 +37,7 @@ public class Runner {
         room.addEventListener(EventType.MESSAGE_POSTED ,event-> newMessage(room, event, false));
 
         Runnable runner = () -> runEditBotOnce(room);
-        executorService.scheduleAtFixedRate(runner, 0, 1, TimeUnit.HOURS);
+        executorService.scheduleAtFixedRate(runner, 0, 30, TimeUnit.SECONDS);
     }
 
     private static void newMessage(Room room, MessagePostedEvent event, boolean b) {
@@ -90,7 +90,7 @@ public class Runner {
             if (json.has("items")){
                 for (JsonElement element: json.get("items").getAsJsonArray()){
                     JsonObject object = element.getAsJsonObject();
-                    if (object.get("body_markdown").getAsString().matches("(cite|add|provide|include|give).*(\\ssource)")){
+                    if (object.get("body_markdown").getAsString().matches(".*(cite|add|provide|includegive).*(\\ssource).*")){
                         room.send(desc+" Answer with comment with the text 'cite sources': "+object.get("link").getAsString());
                     }
                 }
