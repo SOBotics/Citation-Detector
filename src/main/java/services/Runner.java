@@ -59,6 +59,9 @@ public class Runner {
         else if(message.toLowerCase().contains("alive")){
             room.send("Yep");
         }
+        else if(message.matches(".*(Namaste|Namaskaram|Hi|Vanakkam|Hello).*")){
+            room.send("नमस्कारम् ॥");
+        }
     }
 
     public void restartMonitor(){
