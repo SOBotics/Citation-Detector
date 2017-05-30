@@ -1,22 +1,24 @@
 # Citation-Detector
 
-On Hinduism.SE, users have to cite some authentic sources while answering questions. In other words, users have to backup their answers with someone authentic sources. 
+On [Hinduism.SE](https://hinduism.stackexchange.com/), users have to cite some authentic sources while answering questions. In other words, users have to backup their answers with someone authentic sources. 
 
-According to the [Official policy of deleting answers that don't cite any sources](http://hinduism.meta.stackexchange.com/q/803/277), whenever an answer found that doesn't cite any sources, it is commented like 
+According to the [Official policy of deleting answers that don't cite any sources](http://hinduism.meta.stackexchange.com/q/803/277), whenever an answer is found that does not cite any authentic sources, we have to leave a comment as follows 
 
 > "You should cite some sources..." 
 
-and/or 
+and/or the post is annotated with
 
-> annotated with "citation needed" post notice. 
+> "citation needed". 
 
-Now, it is useful if we draw attention towards unsourced answers for following purpose: 
+post notice.
+
+It is useful if we draw attention towards unsourced answers for following purpose: 
 
  1. It can either be improved by including sources i.e users can help OP in finding and citing sources. 
 
- 2. Or such answers may need to be verified if misleading since we don't allow mere personal opinions. 
+ 2. Or such answers may need to be verified, if they are misleading since we don't allow personal opinions. 
 
-We have some very useful users in a chatroom who are happy to guide other users. They can help to server above mentioned purposes. 
+We have some 'happy to help!' users in a chatroom who are happy to guide other users. They can help us to serve above mentioned purposes. 
 
 So, I'm thinking to write a chat bot which can do (at least) either of following functions. 
 
