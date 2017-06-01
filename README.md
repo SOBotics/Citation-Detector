@@ -2,7 +2,7 @@
 
 On [Hinduism.SE](https://hinduism.stackexchange.com/), users have to cite some authentic sources while answering questions. In other words, users have to backup their answers with someone authentic sources. 
 
-According to the [Official policy of deleting answers that don't cite any sources](http://hinduism.meta.stackexchange.com/q/803/277), whenever an answer is found that does not cite any authentic sources, we have to leave a comment as follows 
+According to the [Official policy of deleting answers that don't cite any sources](http://hinduism.meta.stackexchange.com/q/803/277), whenever an answer is found that does not cite any authentic sources, it is commented as follows:
 
 > "You should cite some sources..." 
 
