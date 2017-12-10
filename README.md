@@ -16,7 +16,7 @@ It is useful if we draw attention towards unsourced answers for following purpos
 
  1. It can either be improved by including sources i.e users can help OP in finding and citing sources. 
 
- 2. Or such answers may need to be verified, if they are misleading since we don't allow personal opinions. 
+ 2. Or such answers may need to be verified and may needs to be removed if they are misleading since we [don't allow personal opinions](https://hinduism.meta.stackexchange.com/a/811/277). 
 
 We have some 'happy to help!' users in a chatroom who are happy to guide other users. They can help us to serve above mentioned purposes. 
 
