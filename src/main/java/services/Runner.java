@@ -63,7 +63,7 @@ public class Runner {
             room.send("Yep");
         }
         else if(message.matches(".*(Namaste|Namaskaram|Hi|Vanakkam|Hello).*")){
-            room.send("नमस्कारम् ॥");
+            room.send("नमस्कार:");
         }
     }
 
@@ -100,7 +100,7 @@ public class Runner {
                 if (json.has("items")) {
                     for (JsonElement element : json.get("items").getAsJsonArray()) {
                         JsonObject object = element.getAsJsonObject();
-                        if (object.get("body_markdown").getAsString().matches(".*(cite|add|provide|include|give).*(\\ssource).*")) {
+                        if (object.get("body_markdown").getAsString().matches(".*(cite|add|provide|include|give).*(\\ssource|reference).*")) {
                             room.send(desc + " Answer with comment with the text 'cite sources': " + object.get("link").getAsString());
                         }
                     }
